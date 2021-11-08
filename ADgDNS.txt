@@ -1,0 +1,44 @@
+##上游DNS
+tls://dns.pub
+tls://dns.alidns.com
+https://doh.pub/dns-query
+https://dns.pub/dns-query
+https://dns.alidns.com/dns-query
+##国内Bootstrap DNS
+114.114.114.114
+
+
+#上游DNS服务
+tls://1.1.1.1/dns-query
+tls://dns.google 
+https://dns.google/dns-query 
+tls://dns11.quad9.net
+https://dns11.quad9.net/dns-query
+#国外Bootstrap DNS
+9.9.9.10
+8.8.8.8
+##如果只用tcp/udp协议的DNS，bootstarpDNS可以不填，留空就行
+DOH/DOT必须填写地址
+
+##ps：“name：”不要复制，"url:"不要复制
+name: easylistchina url: https://easylist-downloads.adblockplus.org/easylistchina.txt 
+ 
+name: adgk手机去广告 url: https://banbendalao.coding.net/p/adgk/d/ADgk/git/raw/master/ADgk.txt 
+ 
+name: 视频去广告 url: https://gitee.com/lhzgl6587/hosts/raw/master/myruler 
+ 
+name: 乘风视频 url: https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt 
+ 
+name: 主规则 url: https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt 
+ 
+name: anti-ad-easylis url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt 
+ 
+name: Adbyby-视频 url: https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/video.txt 
+ 
+name: adbyby-网页 url: https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/lazy.txt 
+ 
+name: 大圣净化 url: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts 
+ 
+name: 知乎过滤 url: https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt 
+ 
+name: 知乎严格版 url: https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu-strict.txt
